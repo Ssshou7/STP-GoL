@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
-import math 
+import math  # 新增：导入标准库math
 
 def lsmcm_actual(x, y, m, mu, nu, alpha, gamma, beta, delta, epsilon, zeta):
 
@@ -45,5 +45,4 @@ if __name__ == "__main__":
 
     x, y, m = generate_lsmcm_sequence(length, x0, y0, m0, params)
     signal = x
-
 
